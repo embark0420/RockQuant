@@ -16,12 +16,6 @@ RockQuant operates by creating a virtual display using `Xvfb :0 -screen 0 1280x8
 - **Taskbar System**: Multi-window management with taskbar switching and closing animations.
 - **Pure GPU Rendering**: Uses OpenGL for transparent/rounded corners, avoiding memory explosion caused by CPU image capturing.
 
-## 📷 Runtime Preview
-
-![Preview](./preview.png)
-
-*(Note: Replace `./preview.png` with your actual screenshot file name)*
-
 ## ⚠️ Performance & Limitations
 
 - On the ROCK S0 Pi, the refresh rate caps at **15 FPS** due to the extremely low CPU performance.
