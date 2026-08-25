@@ -1,0 +1,2 @@
+ApplicationIcon: /.ico;
+ApplicationName: "HelloWorld" | "Debug";
