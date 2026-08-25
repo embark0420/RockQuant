@@ -19,12 +19,12 @@ RockQuant operates by creating a virtual display using `Xvfb :0 -screen 0 1280x8
 ## ⚠️ Performance & Limitations
 
 - On the ROCK S0 Pi, the refresh rate caps at **15 FPS** due to the extremely low CPU performance.
-- **Final Test:** It runs on most Linux Headless systems.
+- **Final Test:** It runs on most Linux Headless systems. Of course! Most headless Linux systems can run it.
 - **Current Bottleneck:** It cannot output via a physical video interface; currently, it relies solely on VNC / X11 protocols to display.
 
 ## 📦 Environment
 
-- **Hardware**: Rock S0 Pi (aarch64, 1GB RAM)
+- **Hardware**: Rock S0 Pi (aarch64, 512MB RAM)
 - **Software**: Armbian (Headless) / Python 3 / PyQt5 / PyOpenGL
 
 ## 💡 Why did I make this?
